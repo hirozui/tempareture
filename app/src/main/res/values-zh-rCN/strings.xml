@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="out">结果为：</string>
+    <string name="btn">转换为华氏温度</string>
+</resources>
