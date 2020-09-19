@@ -4,34 +4,57 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/out"
-        android:layout_width="match_parent"
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="400dp"
-        android:text="@string/out"
-        android:textSize="50sp" />
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="150dp"
+        android:text="@string/title"
+        android:textSize="25sp" />
 
-    <EditText
-        android:id="@+id/inp"
-        android:layout_width="158dp"
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="20dp"
-        android:textSize="30sp"
-        android:hint="请输入摄氏度"
-        android:inputType="text" />
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/score"
+        android:textSize="80sp" />
 
     <Button
-        android:id="@+id/btn"
-        android:layout_width="match_parent"
+        android:id="@+id/btn1"
+        android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="@string/btn"
-        android:layout_marginTop="350dp"
-        android:textSize="40sp"
-        android:onClick="btn"
-        />
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="52sp"
+        android:text="@string/btn1" />
+
+    <Button
+        android:id="@+id/btn2"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="52sp"
+        android:text="@string/btn2" />
+
+    <Button
+        android:id="@+id/btn3"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="52sp"
+        android:text="@string/btn3" />
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="150dp"
+        android:text="@string/btn4" />
 
 </LinearLayout>
