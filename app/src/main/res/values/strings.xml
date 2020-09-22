@@ -1,11 +1,12 @@
 <resources>
-    <string name="app_name" translatable="false">Hello</string>
+    <string name="app_name" translatable="false">CourtCounter</string>
     <string name="out">result:</string>
     <string name="btn">transfrom</string>
-    <string name="title" translatable="false">TeamA</string>
+    <string name="teamA" translatable="false">TeamA</string>
+    <string name="teamB" translatable="false">TeamB</string>
     <string name="btn1" translatable="false">+3 POINTS</string>
     <string name="btn2" translatable="false">+2 POINTS</string>
-    <string name="btn3" translatable="false">+1 POINT</string>
+    <string name="btn3" translatable="false">FREE THROW</string>
     <string name="btn4" translatable="false">RESET</string>
     <string name="score" translatable="false">0</string>
 </resources>
