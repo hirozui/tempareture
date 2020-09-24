@@ -1,12 +1,9 @@
 <resources>
-    <string name="app_name" translatable="false">CourtCounter</string>
-    <string name="out">result:</string>
-    <string name="btn">transfrom</string>
-    <string name="teamA" translatable="false">TeamA</string>
-    <string name="teamB" translatable="false">TeamB</string>
-    <string name="btn1" translatable="false">+3 POINTS</string>
-    <string name="btn2" translatable="false">+2 POINTS</string>
-    <string name="btn3" translatable="false">FREE THROW</string>
-    <string name="btn4" translatable="false">RESET</string>
-    <string name="score" translatable="false">0</string>
+    <string name="app_name" translatable="false">currency converter</string>
+    <string name="inp">InputRMB</string>
+    <string name="out">0</string>
+    <string name="button1">dollar</string>
+    <string name="button2">euro</string>
+    <string name="button3">won</string>
+    <string name="button4" translatable="false">config</string>
 </resources>

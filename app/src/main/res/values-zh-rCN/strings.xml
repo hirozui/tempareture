@@ -2,4 +2,8 @@
 <resources>
     <string name="out">结果为：</string>
     <string name="btn">转换为华氏温度</string>
+    <string name="inp">请输入人民币数值</string>
+    <string name="button1">美元</string>
+    <string name="button2">欧元</string>
+    <string name="button3">日元</string>
 </resources>
