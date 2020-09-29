@@ -1,7 +1,9 @@
 package com.example.myapplication;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -15,6 +17,7 @@ import java.util.regex.Pattern;
 public class MainActivity extends AppCompatActivity{
     public HashMap<String,Float> rate = new HashMap<>();
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +25,9 @@ public class MainActivity extends AppCompatActivity{
         rate.put("euro",0.1256f);
         rate.put("won",171.3421f);
         super.onCreate(savedInstanceState);
+
+
+
         setContentView(R.layout.activity_main);
     }
 
