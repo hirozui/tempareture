@@ -11,7 +11,10 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
 
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
@@ -41,8 +44,6 @@ public class MainActivity2 extends AppCompatActivity implements Runnable{
 
         Thread t = new Thread(this);
         t.start();
-
-
         handler = new Handler(){
             @Override
             public void handleMessage(Message msg){
@@ -54,8 +55,6 @@ public class MainActivity2 extends AppCompatActivity implements Runnable{
                 super.handleMessage(msg);
             }
         };
-
-
     }
 
     public void Return(View view){
@@ -101,6 +100,8 @@ public class MainActivity2 extends AppCompatActivity implements Runnable{
         finish();
     }
 
+
+
     @Override
     public void run() {
         Log.i(TAG,"run:run()......");
@@ -122,6 +123,7 @@ public class MainActivity2 extends AppCompatActivity implements Runnable{
         } catch (IOException e) {
             e.printStackTrace();
         }
+
     }
 
     private String inputStream2String(InputStream inputStream)
