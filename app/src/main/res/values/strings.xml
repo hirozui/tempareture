@@ -6,4 +6,5 @@
     <string name="button2">euro</string>
     <string name="button3">won</string>
     <string name="button4" translatable="false">config</string>
+    <string name="label_first" translatable="false">First Page</string>
 </resources>
